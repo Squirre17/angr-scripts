@@ -1,0 +1,2 @@
+gcc -g -O0 -o bin/test src/test.c -no-pie
+objdump -S -d -M intel bin/test | less
